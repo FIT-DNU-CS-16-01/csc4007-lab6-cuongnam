@@ -12,9 +12,15 @@ The script supports three prompt versions:
 
 import csv
 import json
+import os
 from pathlib import Path
 
-DATA_PATH = Path("data/imdb_sample_50.csv")
+try:
+    import requests
+except ImportError:
+    requests = None
+
+DATA_PATH = Path("data/imdb_prompt_testset.csv")
 
 PROMPT_PATHS = {
     "v1": Path("prompts/prompt_template_v1.txt"),
@@ -27,20 +33,36 @@ OUTPUT_DIR = Path("outputs")
 
 def call_llm(prompt: str) -> str:
     """
-    TODO:
-    Replace this function with your LLM call.
+    Call Ollama API to get LLM output.
 
     Options:
+    - Ollama local API (current implementation)
     - Gemini API
     - Groq API
     - OpenRouter
-    - Ollama local API
     - Manual web UI copy/paste, then skip this script
 
     Return:
         Raw text output from the LLM.
     """
-    raise NotImplementedError("Students should implement the LLM call.")
+    if requests is None:
+        raise ImportError("requests not installed. Install with: pip install requests")
+    
+    ollama_host = os.getenv("OLLAMA_HOST", "http://localhost:11434")
+    model_name = os.getenv("OLLAMA_MODEL", "llama3")
+    
+    url = f"{ollama_host}/api/generate"
+    payload = {
+        "model": model_name,
+        "prompt": prompt,
+        "stream": False
+    }
+    
+    response = requests.post(url, json=payload, timeout=60)
+    response.raise_for_status()
+    
+    result = response.json()
+    return result.get("response", "")
 
 
 def parse_json_safely(raw_text: str):
@@ -80,11 +102,7 @@ def run_one_prompt(prompt_version: str, prompt_path: Path, rows: list[dict]):
     for row in rows:
         prompt = prompt_template.replace("{review_text}", row["review_text"])
 
-        # TODO: call your LLM here.
-        # llm_output = call_llm(prompt)
-
-        # Temporary placeholder for students who use manual web UI.
-        llm_output = "TODO: paste or generate LLM output here"
+        llm_output = call_llm(prompt)
 
         parsed_output, valid_json = parse_json_safely(llm_output)
         pred_sentiment = extract_pred_sentiment(parsed_output)

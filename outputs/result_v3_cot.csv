@@ -1,0 +1,253 @@
+review_id,review_text,gold_sentiment,prompt_version,llm_output,valid_json,pred_sentiment
+R001,A beautifully acted film with a simple story that becomes surprisingly emotional by the end.,positive,v3_cot,"{
+  ""sentiment"": ""positive"",
+  ""dominant_reason"": ""beautifully acted film and emotional ending"",
+  ""positive_clues"": [""beautifully acted film"", ""surprisingly emotional by the end""],
+  ""negative_clues"": [],
+  ""evidence_phrases"": [""A beautifully acted film with a simple story that becomes surprisingly emotional by the end.""],
+  ""confidence"": ""high""
+}",1,positive
+R003,I loved the chemistry between the leads and the soundtrack fits every scene perfectly.,positive,v3_cot,"{
+  ""sentiment"": ""positive"",
+  ""dominant_reason"": ""chemistry and soundtrack"",
+  ""positive_clues"": [""I loved"", ""the chemistry between the leads""],
+  ""negative_clues"": [],
+  ""evidence_phrases"": [""I loved the chemistry between the leads"", ""the soundtrack fits every scene perfectly""],
+  ""confidence"": ""high""
+}",1,positive
+R005,A clever script, strong direction,v3_cot,"{
+  ""sentiment"": ""positive"",
+  ""dominant_reason"": ""Clever script implies a good storytelling and writing."",
+  ""positive_clues"": [""A clever script""],
+  ""negative_clues"": [],
+  ""evidence_phrases"": [""A clever script""],
+  ""confidence"": ""high""
+}",1,positive
+R009,A touching and thoughtful movie that rewards patience with a powerful emotional payoff.,positive,v3_cot,"{
+  ""sentiment"": ""positive"",
+  ""dominant_reason"": ""touching, thoughtful, and emotionally rewarding"",
+  ""positive_clues"": [""touching"", ""thoughtful"", ""powerful emotional payoff""],
+  ""negative_clues"": [],
+  ""evidence_phrases"": [""A touching and thoughtful movie that rewards patience with a powerful emotional payoff.""],
+  ""confidence"": ""high""
+}",1,positive
+R021,A delightful surprise with strong performances, memorable scenes,v3_cot,"Here is my response:
+
+{
+  ""sentiment"": ""positive"",
+  ""dominant_reason"": ""delightful surprise and strong performances"",
+  ""positive_clues"": [""A delightful surprise"", ""strong performances""],
+  ""negative_clues"": [],
+  ""evidence_phrases"": [""A delightful surprise with strong performances""],
+  ""confidence"": ""high""
+}",0,
+R008,The film is not perfect, but it has heart,v3_cot,"Here's my analysis:
+
+{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""not perfect"",
+  ""positive_clues"": [],
+  ""negative_clues"": [""The film is not perfect""],
+  ""evidence_phrases"": [""The film is not perfect""],
+  ""confidence"": ""high""
+}",0,
+R002,The pacing is slow at first, but the performances and final scene make the movie memorable.,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""slow pacing at first"",
+  ""positive_clues"": [],
+  ""negative_clues"": [""pacing is slow at first""],
+  ""evidence_phrases"": [""pacing is slow at first""],
+  ""confidence"": ""high""
+}",1,negative
+R004,The plot is predictable, yet the warm characters and sharp dialogue kept me engaged.,v3_cot,"{
+""sentiment"": ""negative"",
+""dominant_reason"": ""predictable plot"",
+""positive_clues"": [],
+""negative_clues"": [""The plot is predictable""],
+""evidence_phrases"": [""The plot is predictable""],
+""confidence"": ""high""
+}",1,negative
+R025,I expected very little, but the movie surprised me with its humor,v3_cot,"{
+  ""sentiment"": ""positive"",
+  ""dominant_reason"": ""surprise that the movie exceeded expectations"",
+  ""positive_clues"": [""expected very little""],
+  ""negative_clues"": [],
+  ""evidence_phrases"": [""expected very little""],
+  ""confidence"": ""high""
+}",1,positive
+R045,A disappointing sequel that adds more noise but loses the charm of the original.,negative,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""loses the charm"",
+  ""positive_clues"": [],
+  ""negative_clues"": [""disappointing"", ""adds more noise but loses the charm""],
+  ""evidence_phrases"": [""A disappointing sequel that adds more noise but loses the charm of the original.""],
+  ""confidence"": ""high""
+}",1,negative
+R026,The film looks expensive, but the story is thin and the characters are hard to care about.,v3_cot,"{
+  ""sentiment"": ""positive"",
+  ""dominant_reason"": ""the use of 'looks expensive' suggests a positive tone"",
+  ""positive_clues"": [""The film looks expensive""],
+  ""negative_clues"": [],
+  ""evidence_phrases"": [""The film looks expensive""],
+  ""confidence"": ""high""
+}",1,positive
+R033,The soundtrack is impressive, but almost every character decision feels forced.,v3_cot,"{
+  ""sentiment"": ""positive"",
+  ""dominant_reason"": ""Praise for the soundtrack"",
+  ""positive_clues"": [""The soundtrack is impressive""],
+  ""negative_clues"": [],
+  ""evidence_phrases"": [""The soundtrack is impressive""],
+  ""confidence"": ""high""
+}",1,positive
+R046,The visual effects are fine, but the film lacks personality and emotional weight.,v3_cot,"{
+""sentiment"": ""positive"",
+""dominant_reason"": ""Fine visual effects"",
+""positive_clues"": [""The visual effects are fine""],
+""negative_clues"": [],
+""evidence_phrases"": [""The visual effects are fine""],
+""confidence"": ""high""
+}",1,positive
+R012,A quiet film, but the silence and small gestures say more than most loud dramas.,v3_cot,"{
+  ""sentiment"": ""positive"",
+  ""dominant_reason"": ""The word 'quiet' is often associated with calmness and serenity, which are positive qualities."",
+  ""positive_clues"": [""A quiet film""],
+  ""negative_clues"": [],
+  ""evidence_phrases"": [""A quiet film""],
+  ""confidence"": ""high""
+}",1,positive
+R027,A dull movie with flat dialogue, weak pacing,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""flat dialogue"",
+  ""positive_clues"": [],
+  ""negative_clues"": [""A dull movie"", ""flat dialogue""],
+  ""evidence_phrases"": [""A dull movie"", ""flat dialogue""],
+  ""confidence"": ""high""
+}",1,negative
+R029,The movie starts with promise and then slowly collapses into predictable twists and noisy scenes.,negative,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""predictable twists and noisy scenes"",
+  ""positive_clues"": [""starts with promise""],
+  ""negative_clues"": [""slowly collapses"", ""predictable twists"", ""noisy scenes""],
+  ""evidence_phrases"": [""The movie starts with promise and then slowly collapses into predictable twists and noisy scenes.""],
+  ""confidence"": ""high""
+}",1,negative
+R030,I wanted to enjoy it, but the plot is confusing,v3_cot,"{
+""sentiment"": ""negative"",
+""dominant_reason"": ""wanted to, but didn't"",
+""positive_clues"": [],
+""negative_clues"": [""didn't""],
+""evidence_phrases"": [""I wanted to enjoy it""],
+""confidence"": ""high""
+}",1,negative
+R032,The film repeats the same idea for two hours and never builds real tension.,negative,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""lacks tension"",
+  ""positive_clues"": [],
+  ""negative_clues"": [""The film repeats the same idea"", ""never builds real tension""],
+  ""evidence_phrases"": [""The film repeats the same idea for two hours and never builds real tension.""],
+  ""confidence"": ""high""
+}",1,negative
+R037,There are a few clever moments, but most of the film feels lazy and predictable.,v3_cot,"{
+  ""sentiment"": ""positive"",
+  ""dominant_reason"": ""clever moments"",
+  ""positive_clues"": [""a few clever moments""],
+  ""negative_clues"": [],
+  ""evidence_phrases"": [""There are a few clever moments""],
+  ""confidence"": ""high""
+}",1,positive
+R035,The final act tries to be emotional, but it has not earned that reaction from the audience.,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""tries to be emotional but failed to connect"",
+  ""positive_clues"": [],
+  ""negative_clues"": [""The final act tries to be emotional""],
+  ""evidence_phrases"": [""The final act tries to be emotional""],
+  ""confidence"": ""high""
+}",1,negative
+R038,The dialogue sounds artificial and the characters explain feelings instead of showing them.,negative,v3_cot,"Here is my analysis:
+
+{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""artificial dialogue and unshowing character emotions"",
+  ""positive_clues"": [],
+  ""negative_clues"": [""The dialogue sounds artificial"", ""the characters explain feelings instead of showing them""],
+  ""evidence_phrases"": [""The dialogue sounds artificial and the characters explain feelings instead of showing them""],
+  ""confidence"": ""high""
+}
+
+Note that I did not find any positive clues in this review, as it only mentions negative aspects. The dominant reason for the negative sentiment is the criticism of the dialogue and character development.",0,
+R039,The movie relies on loud music and quick cuts instead of suspense or meaningful conflict.,negative,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""lack of suspense or meaningful conflict"",
+  ""positive_clues"": [],
+  ""negative_clues"": [""loud music"", ""quick cuts instead of suspense""],
+  ""evidence_phrases"": [""The movie relies on loud music and quick cuts instead of suspense or meaningful conflict.""],
+  ""confidence"": ""high""
+}",1,negative
+R041,The premise is interesting, but the execution is painfully generic.,v3_cot,"{
+  ""sentiment"": ""positive"",
+  ""dominant_reason"": ""interesting premise"",
+  ""positive_clues"": [""The premise is interesting""],
+  ""negative_clues"": [],
+  ""evidence_phrases"": [""The premise is interesting""],
+  ""confidence"": ""high""
+}",1,positive
+R044,The movie explains too much, trusts the audience too little,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""too much exposition"",
+  ""positive_clues"": [],
+  ""negative_clues"": [""The movie explains too much""],
+  ""evidence_phrases"": [""The movie explains too much""],
+  ""confidence"": ""high""
+}",1,negative
+R013,The movie has a few weak jokes, but the emotional core works extremely well.,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""weak jokes"",
+  ""positive_clues"": [],
+  ""negative_clues"": [""The movie has a few weak jokes""],
+  ""evidence_phrases"": [""The movie has a few weak jokes""],
+  ""confidence"": ""high""
+}",1,negative
+R031,Beautiful images cannot hide the lack of emotional depth or meaningful character development.,negative,v3_cot,"Here's my analysis:
+
+{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""lack of emotional depth and meaningful character development"",
+  ""positive_clues"": [""Beautiful images""],
+  ""negative_clues"": [""lack of emotional depth"", ""meaningful character development""],
+  ""evidence_phrases"": [""Beautiful images cannot hide the lack of emotional depth or meaningful character development.""],
+  ""confidence"": ""high""
+}",0,
+R034,A messy and unfocused movie that seems unsure whether it wants to be comedy, drama,v3_cot,"Here is my analysis:
+
+{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""unfocused movie"",
+  ""positive_clues"": [],
+  ""negative_clues"": [""messy"", ""unfocused"", ""seems unsure""],
+  ""evidence_phrases"": [""A messy and unfocused movie that seems unsure whether it wants to be comedy""],
+  ""confidence"": ""high""
+}",0,
+R040,An overlong film with too many subplots and not enough reason to care about any of them.,negative,v3_cot,"{
+  ""sentiment"": ""negative"",
+  ""dominant_reason"": ""too many subplots and lack of engagement"",
+  ""positive_clues"": [],
+  ""negative_clues"": [""overlong"", ""not enough reason to care"", ""too many subplots""],
+  ""evidence_phrases"": [""An overlong film with too many subplots and not enough reason to care about any of them.""],
+  ""confidence"": ""high""
+}",1,negative
+R007,This movie balances humor and drama very well, with several scenes that stayed with me.,v3_cot,"{
+  ""sentiment"": ""positive"",
+  ""dominant_reason"": ""well-balanced movie"",
+  ""positive_clues"": [""balances humor and drama very well""],
+  ""negative_clues"": [],
+  ""evidence_phrases"": [""This movie balances humor and drama very well""],
+  ""confidence"": ""high""
+}",1,positive
+R015,A smart and entertaining film with enough surprises to keep the audience invested.,positive,v3_cot,"{
+  ""sentiment"": ""positive"",
+  ""dominant_reason"": ""entertainment and surprises"",
+  ""positive_clues"": [""smart"", ""entertaining"", ""surprises""],
+  ""negative_clues"": [],
+  ""evidence_phrases"": [""A smart and entertaining film with enough surprises to keep the audience invested.""],
+  ""confidence"": ""high""
+}",1,positive

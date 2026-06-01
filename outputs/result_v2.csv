@@ -1,0 +1,185 @@
+review_id,review_text,gold_sentiment,prompt_version,llm_output,valid_json,pred_sentiment
+R001,A beautifully acted film with a simple story that becomes surprisingly emotional by the end.,positive,v2,"{
+""sentiment"": ""positive"",
+""evidence"": [""beautifully acted"", ""surprisingly emotional""],
+""short_explanation"": ""The reviewer found the acting and emotional impact of the film to be noteworthy."",
+""confidence"": ""high""
+}",1,positive
+R003,I loved the chemistry between the leads and the soundtrack fits every scene perfectly.,positive,v2,"{
+""sentiment"": ""positive"",
+""evidence"": [""I loved"", ""fits every scene perfectly""],
+""short_explanation"": ""The reviewer enjoyed the film's lead actors and music."",
+""confidence"": ""high""
+}",1,positive
+R005,A clever script, strong direction,v2,"{
+""sentiment"": ""positive"",
+""evidence"": [""A clever script""],
+""short_explanation"": ""The reviewer praises the movie's script as clever."",
+""confidence"": ""high""
+}",1,positive
+R009,A touching and thoughtful movie that rewards patience with a powerful emotional payoff.,positive,v2,"{
+""sentiment"": ""positive"",
+""evidence"": [""A touching and thoughtful movie that rewards patience with a powerful emotional payoff.""],
+""short_explanation"": ""The reviewer finds the movie emotionally impactful."",
+""confidence"": ""high""
+}",1,positive
+R021,A delightful surprise with strong performances, memorable scenes,v2,"{
+""sentiment"": ""positive"",
+""evidence"": [""A delightful surprise""],
+""short_explanation"": ""The reviewer found the movie to be a pleasant discovery."",
+""confidence"": ""high""
+}",1,positive
+R008,The film is not perfect, but it has heart,v2,"{
+""sentiment"": ""negative"",
+""evidence"": [""The film is not perfect""],
+""short_explanation"": ""The reviewer found some flaws in the movie."",
+""confidence"": ""high""
+}",1,negative
+R002,The pacing is slow at first, but the performances and final scene make the movie memorable.,v2,"{
+""sentiment"": ""negative"",
+""evidence"": [""The pacing is slow at first""],
+""short_explanation"": ""The reviewer found the beginning of the movie to be slow-paced."",
+""confidence"": ""medium""
+}",1,negative
+R004,The plot is predictable, yet the warm characters and sharp dialogue kept me engaged.,v2,"{
+""sentiment"": ""negative"",
+""evidence"": [""The plot is predictable""],
+""short_explanation"": ""The reviewer finds the plot to be lacking in originality."",
+""confidence"": ""medium""
+}",1,negative
+R025,I expected very little, but the movie surprised me with its humor,v2,"{
+""sentiment"": ""negative"",
+""evidence"": [""I expected very little""],
+""short_explanation"": ""The reviewer had low expectations and was disappointed."",
+""confidence"": ""high""
+}",1,negative
+R045,A disappointing sequel that adds more noise but loses the charm of the original.,negative,v2,"{
+""sentiment"": ""negative"",
+""evidence"": [""A disappointing sequel...""],
+""short_explanation"": ""The reviewer found the sequel lacking in charm and enjoyable moments."",
+""confidence"": ""high""
+}",1,negative
+R026,The film looks expensive, but the story is thin and the characters are hard to care about.,v2,"{
+""sentiment"": ""neutral"",
+""evidence"": [""The film looks expensive""],
+""short_explanation"": ""The reviewer provides a neutral observation about the production quality of the film."",
+""confidence"": ""medium""
+}",1,
+R033,The soundtrack is impressive, but almost every character decision feels forced.,v2,"{
+""sentiment"": ""positive"",
+""evidence"": [""The soundtrack is impressive""],
+""short_explanation"": ""The reviewer praised the movie's soundtrack."",
+""confidence"": ""high""
+}",1,positive
+R046,The visual effects are fine, but the film lacks personality and emotional weight.,v2,"{
+""sentiment"": ""negative"",
+""evidence"": [""The visual effects are fine""],
+""short_explanation"": ""The reviewer finds the visual effects average."",
+""confidence"": ""medium""
+}",1,negative
+R012,A quiet film, but the silence and small gestures say more than most loud dramas.,v2,"{
+""sentiment"": ""negative"",
+""evidence"": [""quiet film""],
+""short_explanation"": ""The reviewer implies that the film lacks excitement."",
+""confidence"": ""medium""
+}",1,negative
+R027,A dull movie with flat dialogue, weak pacing,v2,"Here is the analysis:
+
+{
+""sentiment"": ""negative"",
+""evidence"": [""A dull movie"", ""flat dialogue""],
+""short_explanation"": ""The reviewer found the movie to be unengaging and lacked conversational depth."",
+""confidence"": ""high""
+}",0,
+R029,The movie starts with promise and then slowly collapses into predictable twists and noisy scenes.,negative,v2,"{
+""sentiment"": ""negative"",
+""evidence"": [""slowly collapses"", ""predictable twists""],
+""short_explanation"": ""The reviewer felt the movie's potential was wasted due to predictable plot and excessive noise."",
+""confidence"": ""high""
+}",1,negative
+R030,I wanted to enjoy it, but the plot is confusing,v2,"{
+""sentiment"": ""negative"",
+""evidence"": [""I wanted to enjoy it""],
+""short_explanation"": ""The reviewer had expected to like the movie but was disappointed."",
+""confidence"": ""high""
+}",1,negative
+R032,The film repeats the same idea for two hours and never builds real tension.,negative,v2,"{
+""sentiment"": ""negative"",
+""evidence"": [""The film repeats the same idea for two hours""],
+""short_explanation"": ""The reviewer found the film lacking in tension."",
+""confidence"": ""high""
+}",1,negative
+R037,There are a few clever moments, but most of the film feels lazy and predictable.,v2,"{
+""sentiment"": ""mixed"",
+""evidence"": [""There are a few clever moments""],
+""short_explanation"": ""The reviewer finds some parts clever, but it's unclear if that's the majority of the movie."",
+""confidence"": ""low""
+}",1,
+R035,The final act tries to be emotional, but it has not earned that reaction from the audience.,v2,"Here is the analysis of the given IMDB movie review:
+
+{
+""sentiment"": ""negative"",
+""evidence"": [""The final act tries to be emotional""],
+""short_explanation"": ""The reviewer found the final part of the movie unconvincing."",
+""confidence"": ""high""
+}",0,
+R038,The dialogue sounds artificial and the characters explain feelings instead of showing them.,negative,v2,"{
+""sentiment"": ""negative"",
+""evidence"": [""The dialogue sounds artificial"", ""the characters explain feelings instead of showing them""],
+""short_explanation"": ""The reviewer found the dialogue and character interactions unconvincing."",
+""confidence"": ""high""
+}",1,negative
+R039,The movie relies on loud music and quick cuts instead of suspense or meaningful conflict.,negative,v2,"{
+""sentiment"": ""negative"",
+""evidence"": [""The movie relies on loud music and quick cuts instead of suspense or meaningful conflict.""],
+""short_explanation"": ""The reviewer criticizes the film's storytelling methods."",
+""confidence"": ""high""
+}",1,negative
+R041,The premise is interesting, but the execution is painfully generic.,v2,"{
+""sentiment"": ""neutral"",
+""evidence"": [""The premise is interesting""],
+""short_explanation"": ""The reviewer found the concept intriguing."",
+""confidence"": ""medium""
+}",1,
+R044,The movie explains too much, trusts the audience too little,v2,"{
+""sentiment"": ""negative"",
+""evidence"": [""The movie explains too much""],
+""short_explanation"": ""The reviewer felt that the movie revealed too many details."",
+""confidence"": ""high""
+}",1,negative
+R013,The movie has a few weak jokes, but the emotional core works extremely well.,v2,"{
+""sentiment"": ""negative"",
+""evidence"": [""The movie has a few weak jokes""],
+""short_explanation"": ""The reviewer found some parts of the movie to be unsuccessful in terms of humor."",
+""confidence"": ""high""
+}",1,negative
+R031,Beautiful images cannot hide the lack of emotional depth or meaningful character development.,negative,v2,"{
+""sentiment"": ""negative"",
+""evidence"": [""lack of emotional depth or meaningful character development""],
+""short_explanation"": ""The movie lacks emotional depth and meaningful character development."",
+""confidence"": ""high""
+}",1,negative
+R034,A messy and unfocused movie that seems unsure whether it wants to be comedy, drama,v2,"{
+""sentiment"": ""negative"",
+""evidence"": [""A messy and unfocused movie""],
+""short_explanation"": ""The reviewer found the film to be disorganized."",
+""confidence"": ""high""
+}",1,negative
+R040,An overlong film with too many subplots and not enough reason to care about any of them.,negative,v2,"{
+""sentiment"": ""negative"",
+""evidence"": [""An overlong film"", ""not enough reason to care about any of them""],
+""short_explanation"": ""The reviewer found the movie to be overly long with too many storylines and lacked emotional investment."",
+""confidence"": ""high""
+}",1,negative
+R007,This movie balances humor and drama very well, with several scenes that stayed with me.,v2,"{
+""sentiment"": ""positive"",
+""evidence"": [""This movie balances humor and drama very well""],
+""short_explanation"": ""The reviewer enjoyed the balance between comedic and dramatic elements."",
+""confidence"": ""high""
+}",1,positive
+R015,A smart and entertaining film with enough surprises to keep the audience invested.,positive,v2,"{
+""sentiment"": ""positive"",
+""evidence"": [""A smart and entertaining film""],
+""short_explanation"": ""The reviewer found the movie engaging and enjoyable."",
+""confidence"": ""high""
+}",1,positive

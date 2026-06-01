@@ -1,0 +1,294 @@
+review_id,review_text,gold_sentiment,prompt_version,llm_output,valid_json,pred_sentiment
+R001,A beautifully acted film with a simple story that becomes surprisingly emotional by the end.,positive,v1,"Here is the analysis:
+
+```
+{
+  ""sentiment"": ""positive"",
+  ""evidence"": [
+    ""beautifully acted"",
+    ""surprisingly emotional""
+  ],
+  ""short_explanation"": ""The reviewer praises the film's acting and emotional impact, indicating a generally positive sentiment.""
+}
+```",0,
+R003,I loved the chemistry between the leads and the soundtrack fits every scene perfectly.,positive,v1,"Here is the analysis of the movie review in JSON format:
+
+```
+{
+  ""sentiment"": ""positive"",
+  ""evidence"": [""I loved the chemistry between the leads"", ""the soundtrack fits every scene perfectly""],
+  ""short_explanation"": ""The reviewer enjoyed the film's portrayal of the main characters' relationship and praised the musical score for its effective match with the on-screen action.""
+}
+```
+
+In this review, the use of the word ""loved"" to describe the chemistry between the leads indicates a strong positive sentiment. Additionally, the phrase ""fits every scene perfectly"" suggests that the soundtrack was well-executed and enhanced the viewing experience.",0,
+R005,A clever script, strong direction,v1,"Here is the analysis of the given IMDB movie review:
+
+```json
+{
+  ""sentiment"": ""positive"",
+  ""evidence"": [""clever script""],
+  ""short_explanation"": ""The reviewer praises the movie's script, highlighting its cleverness.""
+}
+```
+
+Note: The sentiment of this review is positive because the word ""clever"" has a generally positive connotation in this context, implying that the reviewer enjoyed and appreciated the script.",0,
+R009,A touching and thoughtful movie that rewards patience with a powerful emotional payoff.,positive,v1,"Here is the analysis of the IMDB movie review:
+
+```
+{
+  ""sentiment"": ""positive"",
+  ""evidence"": [""touching"", ""thoughtful"", ""powerful emotional payoff""],
+  ""short_explanation"": ""The reviewer uses positive adjectives to describe the movie, indicating that they enjoyed it and found it emotionally impactful.""
+}
+```",0,
+R021,A delightful surprise with strong performances, memorable scenes,v1,"Here is the analysis of the sentiment in the given IMDB movie review:
+
+```
+{
+  ""sentiment"": ""positive"",
+  ""evidence"": [""delightful surprise"", ""strong performances""],
+  ""short_explanation"": ""The reviewer found the movie to be a pleasant and enjoyable experience, with standout acting.""
+}
+```",0,
+R008,The film is not perfect, but it has heart,v1,"Here's the analysis of the given IMDB movie review:
+
+```json
+{
+  ""sentiment"": ""neutral"",
+  ""evidence"": [""The film is not perfect""],
+  ""short_explanation"": ""The reviewer acknowledges that the film has some flaws, but does not express a strong positive or negative opinion.""
+}
+```
+
+Note: The sentiment is neutral because the review doesn't contain any overwhelmingly positive or negative language.",0,
+R002,The pacing is slow at first, but the performances and final scene make the movie memorable.,v1,"Here's the analysis:
+
+```
+{
+  ""sentiment"": ""mixed"",
+  ""evidence"": [""The pacing is slow at first""],
+  ""short_explanation"": ""The reviewer expresses a neutral tone towards the pacing, but it being 'slow' can be seen as slightly negative. However, this criticism is not strong enough to override other potential positives in the review.""
+}
+```
+
+Note that I've classified the sentiment as ""mixed"" because while there is a clear negative statement (""the pacing is slow at first""), it's not an overwhelmingly critical comment. The tone seems more observational than scathing, leaving room for the reviewer to potentially praise other aspects of the movie.",0,
+R004,The plot is predictable, yet the warm characters and sharp dialogue kept me engaged.,v1,"Here's the analysis:
+
+{
+""sentiment"": ""negative"",
+""evidence"": [""The plot is predictable""],
+""short_explanation"": ""The reviewer expresses disappointment with the movie, finding the plot unoriginal and easily foreseeable.""
+}",0,
+R025,I expected very little, but the movie surprised me with its humor,v1,"Here is the analysis of the given IMDB movie review:
+
+```json
+{
+  ""sentiment"": ""positive"",
+  ""evidence"": [""I expected very little""],
+  ""short_explanation"": ""The reviewer was pleasantly surprised, as their low expectations were exceeded.""
+}
+```
+
+In this review, the phrase ""I expected very little"" suggests that the reviewer had a relatively low opinion of the movie going in. However, since they didn't explicitly state any negative aspects, it can be inferred that they actually enjoyed the film more than they thought they would, making their overall sentiment positive.",0,
+R045,A disappointing sequel that adds more noise but loses the charm of the original.,negative,v1,"Here is the analysis:
+
+```
+{
+  ""sentiment"": ""negative"",
+  ""evidence"": [""disappointing"", ""loses the charm""],
+  ""short_explanation"": ""The reviewer found the sequel to be a letdown, lacking the appeal of the first film.""
+}
+```",0,
+R026,The film looks expensive, but the story is thin and the characters are hard to care about.,v1,"Here is the analysis of the IMDB movie review:
+
+{
+""sentiment"": ""neutral"",
+""evidence"": [""The film looks expensive""],
+""short_explanation"": ""This phrase suggests that the reviewer has an objective opinion about the film's production value, without expressing a clear emotional tone or praise/criticism.""
+}
+
+Let me know if you'd like me to analyze more reviews!",0,
+R033,The soundtrack is impressive, but almost every character decision feels forced.,v1,"Here's the analysis:
+
+{
+""sentiment"": ""positive"",
+""evidence"": [""The soundtrack is impressive""],
+""short_explanation"": ""The reviewer specifically highlights the soundtrack as a strong aspect of the movie, indicating a positive overall sentiment.""
+}
+
+Let me know if you have any other reviews you'd like me to analyze!",0,
+R046,The visual effects are fine, but the film lacks personality and emotional weight.,v1,"Here is the analysis of the given IMDB movie review:
+
+{
+""sentiment"": ""neutral"",
+""evidence"": [""The visual effects are fine""],
+""short_explanation"": ""This reviewer seems to be giving a lukewarm opinion about the visual effects, neither praising nor criticizing them too strongly.""
+}
+
+Let me know if you'd like me to analyze more reviews!",0,
+R012,A quiet film, but the silence and small gestures say more than most loud dramas.,v1,"Here is the analysis of the sentiment:
+
+```
+{
+  ""sentiment"": ""neutral"",
+  ""evidence"": [""A quiet film""],
+  ""short_explanation"": ""The reviewer's comment about the film being 'quiet' implies a lack of strong emotional or dramatic tone, but does not express a clear positive or negative opinion.""
+}
+```",0,
+R027,A dull movie with flat dialogue, weak pacing,v1,"Here's the analysis of the sentiment:
+
+```
+{
+  ""sentiment"": ""negative"",
+  ""evidence"": [""A dull movie"", ""flat dialogue""],
+  ""short_explanation"": ""The reviewer strongly dislikes the movie, finding it unengaging and lacking in conversational quality.""
+}
+```",0,
+R029,The movie starts with promise and then slowly collapses into predictable twists and noisy scenes.,negative,v1,"Here is the analysis of the sentiment in the given IMDB movie review:
+
+```
+{
+  ""sentiment"": ""negative"",
+  ""evidence"": [""slowly collapses"", ""predictable twists"", ""noisy scenes""],
+  ""short_explanation"": ""The reviewer's tone is critical, expressing disappointment and frustration with the movie's development and overall quality.""
+}
+```
+
+In this analysis, I identified the sentiment as negative because the reviewer uses phrases that convey a sense of decline and predictability, indicating their dissatisfaction with the movie. The specific evidence I cited includes words like ""collapses"", ""predictable"", and ""noisy scenes"", which are all indicative of a negative opinion.",0,
+R030,I wanted to enjoy it, but the plot is confusing,v1,"Here is the analysis of the sentiment:
+
+```
+{
+  ""sentiment"": ""negative"",
+  ""evidence"": [""I wanted to enjoy it""],
+  ""short_explanation"": ""The reviewer explicitly states their desire to enjoy the movie, but didn't. The phrase 'wanted to' implies a sense of disappointment.""
+}
+```",0,
+R032,The film repeats the same idea for two hours and never builds real tension.,negative,v1,"Here is the analysis of the movie review:
+
+```
+{
+  ""sentiment"": ""negative"",
+  ""evidence"": [""The film repeats the same idea for two hours"", ""never builds real tension""],
+  ""short_explanation"": ""The reviewer is unhappy with the film's lack of progression and inability to create suspense, indicating a negative sentiment towards the movie.""
+}
+```
+
+Let me know if you have any other reviews you'd like me to analyze!",0,
+R037,There are a few clever moments, but most of the film feels lazy and predictable.,v1,"Here is the analysis of the IMDB movie review:
+
+```
+{
+  ""sentiment"": ""neutral"",
+  ""evidence"": [""There are a few clever moments""],
+  ""short_explanation"": ""The reviewer mentions some positive aspects (clever moments) but doesn't express strong enthusiasm, indicating a neutral sentiment.""
+}
+```",0,
+R035,The final act tries to be emotional, but it has not earned that reaction from the audience.,v1,"Here's the analysis:
+
+{
+""sentiment"": ""negative"",
+""evidence"": [""The final act tries to be emotional""],
+""short_explanation"": ""The reviewer implies that the movie failed to deliver an emotional impact in its climax, which is a disappointment.""
+}
+
+In this review, the phrase ""tries to be emotional"" suggests that the movie's attempt at being emotional fell flat, indicating a negative sentiment.",0,
+R038,The dialogue sounds artificial and the characters explain feelings instead of showing them.,negative,v1,"Here is the analysis of the given IMDB movie review:
+
+```
+{
+  ""sentiment"": ""negative"",
+  ""evidence"": [""The dialogue sounds artificial"", ""the characters explain feelings instead of showing them""],
+  ""short_explanation"": ""The reviewer criticizes the film's dialogue and character development, indicating a negative sentiment.""
+}
+```
+
+Let me know if you'd like to analyze more reviews!",0,
+R039,The movie relies on loud music and quick cuts instead of suspense or meaningful conflict.,negative,v1,"Here is the analysis:
+
+```
+{
+  ""sentiment"": ""negative"",
+  ""evidence"": [""loud music and quick cuts"", ""suspense or meaningful conflict""],
+  ""short_explanation"": ""The reviewer criticizes the movie for relying on cheap techniques rather than building tension or exploring meaningful themes.""
+}
+```",0,
+R041,The premise is interesting, but the execution is painfully generic.,v1,"Here's the analysis:
+
+```
+{
+  ""sentiment"": ""neutral"",
+  ""evidence"": [""The premise is interesting""],
+  ""short_explanation"": ""The reviewer finds the idea behind the movie engaging, but doesn't provide enough information to determine their overall opinion.""
+}
+```",0,
+R044,The movie explains too much, trusts the audience too little,v1,"Here is the analysis of the given IMDB movie review:
+
+```
+{
+  ""sentiment"": ""negative"",
+  ""evidence"": [""The movie explains too much""],
+  ""short_explanation"": ""This reviewer was disappointed with the film's over-exposition, implying that it ruined their viewing experience.""
+}
+```",0,
+R013,The movie has a few weak jokes, but the emotional core works extremely well.,v1,"Here is the analysis:
+
+```
+{
+  ""sentiment"": ""negative"",
+  ""evidence"": [""The movie has a few weak jokes""],
+  ""short_explanation"": ""The reviewer found some parts of the movie to be subpar, specifically mentioning 'weak jokes'.""
+}
+```",0,
+R031,Beautiful images cannot hide the lack of emotional depth or meaningful character development.,negative,v1,"Here's the analysis:
+
+```json
+{
+  ""sentiment"": ""negative"",
+  ""evidence"": [
+    ""lack of emotional depth"",
+    ""meaningful character development""
+  ],
+  ""short_explanation"": ""The reviewer feels that the movie's visuals are not enough to save it from a lack of emotional resonance and poorly developed characters.""
+}
+```",0,
+R034,A messy and unfocused movie that seems unsure whether it wants to be comedy, drama,v1,"Here's the analysis of the given IMDB movie review:
+
+{
+""sentiment"": ""negative"",
+""evidence"": [""A messy and unfocused movie"", ""seems unsure""],
+""short_explanation"": ""The reviewer found the movie to be disorganized and uncertain about its tone, indicating a negative sentiment.""
+}
+
+In this analysis, I identified the reviewer's negative sentiment towards the movie by highlighting phrases that convey their disappointment, such as ""messy and unfocused"" and ""seems unsure"". These phrases suggest that the reviewer was unhappy with the movie's direction or lack of clarity.",0,
+R040,An overlong film with too many subplots and not enough reason to care about any of them.,negative,v1,"Here is the analysis result in JSON format:
+
+```
+{
+  ""sentiment"": ""negative"",
+  ""evidence"": [""not enough reason to care about any of them"", ""overlong film""],
+  ""short_explanation"": ""The reviewer found the movie too long and difficult to connect with its characters, indicating a strong negative sentiment.""
+}
+```",0,
+R007,This movie balances humor and drama very well, with several scenes that stayed with me.,v1,"Here is the analysis result in JSON format:
+
+```
+{
+  ""sentiment"": ""positive"",
+  ""evidence"": [""balances humor and drama very well""],
+  ""short_explanation"": ""The reviewer praises the movie's ability to seamlessly blend comedic and dramatic elements, indicating a positive overall sentiment.""
+}
+```",0,
+R015,A smart and entertaining film with enough surprises to keep the audience invested.,positive,v1,"Here is the analysis:
+
+{
+""sentiment"": ""positive"",
+""Evidence"": [
+""A smart and entertaining film"", 
+""enough surprises to keep the audience invested""
+],
+""Short_Explanation"": ""The reviewer praises the film for its intelligence, entertainment value, and ability to surprise the audience.""
+}
+
+Let me know if you need any further assistance!",0,
